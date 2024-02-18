@@ -65,15 +65,30 @@ header ul li a{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    background-color:black;
+    opacity:2;
    
 
 }
+
 .container{
     width: 10px;
     position: relative;
     top: 30%;
     left: -5%;
     text-align: left;
+    color: white;
+    font-weight: 600;
+    line-height: 200%;
+}
+
+.container h1{
+    font-size: 40px;
+}
+
+.container p{
+    font-size: 20px;
+
 }
 .container {
     width: 80%;
