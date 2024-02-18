@@ -5,6 +5,10 @@ body {
    
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -53,6 +57,8 @@ header ul li a{
 .apply-as-mentor{
     background-color: #D00D2D;
 }
+
+
 
 
 .home{
@@ -186,30 +192,60 @@ header ul li a{
     height: 100px;
     border-radius: 5px;
 }
+.experience{
+ background-color: #D00D2D;
+ border-radius: 5px;
+}
+#apply{
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
 
+}
+
+#apply .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#f8f8f8;
+    width: 50%;
+}
 
 #apply form input,
 #apply form textarea,
 #apply form button {
-    display: block;
-    width: 100%;
+    
+    display:block;
+    background:transparent;
+    color: white;
+    width:500px;
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
 }
 
 #apply form button {
-    background-color: #333;
+    background-color:rgb(2,3,129);
     color: #fff;
     cursor: pointer;
+    width: 50%;
 }
 
+/* button hover */
+#apply button:hover{
+    background-color: #D00D2D;
+}
 
 /* /*about us css */
 #about {
     background-color: #f8f8f8;
     padding: 80px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     
 }
 
@@ -253,4 +289,12 @@ header ul li a{
 .member:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
+}
+
+
+/* Apply as a mentor */
+/* footer */
+
+footer{
+    text-align: center;
 }
