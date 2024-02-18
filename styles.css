@@ -65,26 +65,30 @@ header ul li a{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    background-color:black;
+    opacity:2;
    
 
 }
-.box-container{
-    width: 100vw;
-    margin: 40px auto;
-    box-sizing:border-box;
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 20px;
-
-
+.container{
+    width: 10px;
+    position: relative;
+    top: 30%;
+    left: -5%;
+    text-align: left;
 }
- h2{
-    text-align: center;
-    text-transform: uppercase;
-    margin: 10px;
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.mentor {
+    margin-bottom: 20px;
+}
+
+.mentor-info {
+    border: 1px solid #ccc;
     padding: 10px;
     color: white;
     font-size: 3rem;
