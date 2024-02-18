@@ -55,8 +55,8 @@ header ul li a{
     color: white;
 }
 
-header nav ul i{
-    display: none;
+header nav label{
+    display:none;
 }
 
 
@@ -102,7 +102,8 @@ header nav ul i{
         transition: 2s ease;
     }
 
-    header i{
+    header nav label {
+        display: block;
         font-size: 30px;
         cursor: pointer;
         margin-right:0px;
