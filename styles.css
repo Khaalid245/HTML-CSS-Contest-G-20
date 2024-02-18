@@ -64,6 +64,7 @@ header ul li a{
 .home{
     position: relative;
     top: 40px;
+    bottom: 20px;
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -87,6 +88,22 @@ header ul li a{
     width: 80%;
     margin: auto;
     padding: 20px 0;
+}
+
+/* media Queries header and home */
+
+@media (max-width: 769px){
+    header{
+        position: relative;
+        
+    }
+
+    .home{
+        margin: 0;
+        position: relative;
+        top: 0;
+        margin-bottom: 12px;
+    }
 }
 
 .mentors {
@@ -201,29 +218,43 @@ header ul li a{
 /* Media Queries */
 @media(max-width:769px){
 
-    .home{
-        height: 70vh;
-    }
+    
 
     .mentor-container{
 
         display: flex;
-
         flex-direction: column;
+        align-items: center;
+
+    
     
     }
 
-   .mentor{
-    position:relative ;
-    top: 20%;
-    height:150vh;
+
+
+   .mentors{
+
+    position: relative;
+    top: 100%; 
+    height: 200vh;  
+    
    }
+
+ .img img{
+    height:50%;
+
+ }
+
+.mentor-container .one-class{
+    margin-top: 5%;
+}
 
 }
 
 
 /* /*about us css */
 #about {
+    height: 100vh;
     background-color: #f8f8f8;
     padding: 80px 0;
     display: flex;
@@ -318,6 +349,53 @@ header ul li a{
 /* button hover */
 #apply button:hover{
     background-color: #D00D2D;
+}
+
+/* media Queries for Apply form  and about*/
+
+@media(max-width:769px){
+
+    #about{
+    height: 250vh;
+}
+
+
+    #apply{
+        background-color:#f8f8f8;
+        height: 100vh;
+        position: relative;
+        top: 50%;
+
+    }
+
+
+
+#apply form input,
+#apply form textarea,
+#apply form button {
+    
+    display:block;
+    background:transparent;
+    color: white;
+    width:100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+
+}
+
+#apply form button {
+    background-color:rgb(2,3,129);
+    color: #fff;
+    cursor: pointer;
+    width: 50%;
+}
+
+footer{
+    height:100vh;
+}
+
 }
 
 
