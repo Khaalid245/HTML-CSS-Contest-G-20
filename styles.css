@@ -196,48 +196,31 @@ header ul li a{
  background-color: #D00D2D;
  border-radius: 5px;
 }
-#apply{
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5%;
 
-}
+/* Media Queries */
+@media(max-width:769px){
 
-#apply .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color:#f8f8f8;
-    width: 50%;
-}
+    .home{
+        height: 70vh;
+    }
 
-#apply form input,
-#apply form textarea,
-#apply form button {
+    .mentor-container{
+
+        display: flex;
+
+        flex-direction: column;
     
-    display:block;
-    background:transparent;
-    color: white;
-    width:500px;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
+    }
+
+   .mentor{
+    position:relative ;
+    top: 20%;
+    height:150vh;
+   }
+
 }
 
-#apply form button {
-    background-color:rgb(2,3,129);
-    color: #fff;
-    cursor: pointer;
-    width: 50%;
-}
-
-/* button hover */
-#apply button:hover{
-    background-color: #D00D2D;
-}
 
 /* /*about us css */
 #about {
@@ -291,10 +274,60 @@ header ul li a{
     transition: transform 0.3s ease-in-out;
 }
 
+/* apply section */
+#apply{
+
+    height: 100vh;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+
+}
+
+#apply .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#f8f8f8;
+    width: 100%;
+}
+
+#apply form input,
+#apply form textarea,
+#apply form button {
+    
+    display:block;
+    background:transparent;
+    color: white;
+    width:500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#apply form button {
+    background-color:rgb(2,3,129);
+    color: #fff;
+    cursor: pointer;
+    width: 50%;
+}
+
+/* button hover */
+#apply button:hover{
+    background-color: #D00D2D;
+}
+
+
+
 
 /* Apply as a mentor */
 /* footer */
 
 footer{
+    margin: 2%;
+    height: 4vh;
     text-align: center;
 }
