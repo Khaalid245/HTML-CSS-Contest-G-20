@@ -10,14 +10,36 @@
 <body>
     <header>
         <h2>Career Connect</h2>
+
+
+
         <nav>
-            <ul>
+
+
+            <ul id="myList">
+                
                 <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="#mentors"><i class="fa fa-users"></i> Mentors</a></li>
                 <li><a href="#about"><i class="fa fa-info-circle"></i>About</a></li>
                 <li class="apply-as-mentor"><a href="#apply">Apply as a Mentor</a></li>
+                
             </ul>
+
+            <label for="" onclick="menu()" > 
+                <i class="fas fa-bars"></i>
+            </label>
+
+
+                
+ 
+
+            
         </nav>
+
+
+        
+            
+    
     </header>
 
     <section id="home" class="home">
@@ -131,5 +153,14 @@
     <footer>
         <p>&copy; 2024 Career Connect. All rights reserved.</p>
     </footer>
+        
+    <script>
+
+        function menu() {
+        var myList = document.getElementById("myList");
+        myList.style.display = (myList.style.display === "none" || myList.style.display === "") ? "block" : "none";
+}
+
+    </script>
 </body>
 </html>
