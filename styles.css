@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: rgb(2,3,129);
+    color:white;
+    height:3vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header img{
+
+    width: 100px;
+    height: auto    ;
+    
+
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li{
+    display: flex;
+    list-style: none;
+    padding: 8px 12px;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+}
+.apply-as-mentor{
+    background-color: #D00D2D;
+}
+
+
+.home{
+    position: relative;
+    top: 40px;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background: url("https://assets-global.website-files.com/5ce11396d0cadb67eb2cac0e/63d7f1fa52386df009e2b78f_Black%20mentoring%20programs%20(1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+
+}
+.container{
+    width: 10px;
+    position: relative;
+    top: 30%;
+    left: -5%;
+    text-align: left;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.mentor {
+    margin-bottom: 20px;
+}
+
+.mentor-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.member img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#apply form input,
+#apply form textarea,
+#apply form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#apply form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
