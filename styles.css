@@ -74,31 +74,107 @@ header ul li a{
     color: white;
     background-color:black;
     opacity:2;
+    transition: 10s;
+    animation-name:animate;
+    animation-duration: 38s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
    
 
 }
+
+
+@keyframes animate{
+    0%{
+        background: url("https://assets-global.website-files.com/5ce11396d0cadb67eb2cac0e/63d7f1fa52386df009e2b78f_Black%20mentoring%20programs%20(1).png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    20%{
+        background:url(https://winningfutures.org/images/Mentor-African-American-Boys.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    40%{
+        background:url(https://ughe.org/wp-content/uploads/2020/09/MENTEES.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    60%{
+        background:url(https://communityyouthadvance.org/wp-content/uploads/2020/02/4D84D58F-F448-4EC6-81A2-AAD2A358643C.jpeg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    80%{
+        background:url(https://www.ualberta.ca/nursing/media-library/research/health-immigration/istock-511652302.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    100%{
+        background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_lpqO3AULkZmhMUCDX1Gyvdaqas5luegFoA&usqp=CAU) ;
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+    
+}
+
+
 .container{
-    width: 10px;
+    width: 100%;
     position: relative;
-    top: 30%;
-    left: -5%;
+    top: 0%;
+    left: 0%;
     text-align: left;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100vh;
+    
 }
 .container {
-    width: 80%;
+    width:100%;
     margin: auto;
     padding: 20px 0;
+}
+
+.welcome{
+    position: relative;
+    top: 30%;
+    color: white;
+    left: 10%;
+    width:700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    
+}
+
+.welcome p{
+    line-height:30px;
+    font-weight: 500;
 }
 
 /* media Queries header and home */
 
 @media (max-width: 769px){
     header{
-        position: relative;
+        position:f;
         
     }
 
     .home{
+
         margin: 0;
         position: relative;
         top: 0;
