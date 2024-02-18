@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    background: rgb(15, 14, 14);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.mentor {
+    margin-bottom: 20px;
+}
+
+.mentor-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.member img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#apply form input,
+#apply form textarea,
+#apply form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#apply form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}

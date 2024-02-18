@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Mentorship Program</title>
+    <link rel="stylesheet" href="ass.css">
+</head>
+<body>
+    <header>
+        <h1>Career Connect</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#mentors">Mentors</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#apply">Apply as a Mentor</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Career Connect</h2>
+            <p>This website aims to connect students with mentors to help them in their career development.</p>
+        </div>
+    </section>
+
+    <section id="mentors">
+        <div class="container">
+            <h2>Our Mentors</h2>
+            <div class="mentor">
+                <h3>Career Advice</h3>
+                <div class="mentor-info">
+                    <img src="career_mentor.jpg" alt="Career Mentor">
+                    <p>Name: John Doe</p>
+                    <p>Experience: 10 years</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="mentor">
+                <h3>Resume Review</h3>
+                <div class="mentor-info">
+                    <img src="resume_mentor.jpg" alt="Resume Mentor">
+                    <p>Name: Jane Smith</p>
+                    <p>Experience: 8 years</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <!-- Add more mentors as needed -->
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="member">
+                <img src="member1.jpg" alt="Member 1">
+                <h3>John Doe</h3>
+                <p>Web Developer</p>
+            </div>
+            <div class="member">
+                <img src="member2.jpg" alt="Member 2">
+                <h3>Jane Smith</h3>
+                <p>UI/UX Designer</p>
+            </div>
+            <!-- Add more members as needed -->
+        </div>
+    </section>
+
+    <section id="apply">
+        <div class="container">
+            <h2>Apply as a Mentor</h2>
+            <form action="submit_mentor_application.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Career Connect. All rights reserved.</p>
+    </footer>
+</body>
+</html>
