@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Events.css">
+</head>
+<body>
+    <section>
+        <h2>COMING SOON.....</h2>
+        <div class="container">
+        <div class="card"><img src="/wepik-export-20240219115453xsSn.png" width="200" height="200" alt="professional">
+            <hr>
+          <h4>Lorem, ipsum dolor sit amet consectetur.</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nulla dolore voluptate non aut dignissimos illo quo, veritatis officia recusandae laboriosam maiores accusamus dolores beatae consectetur, nisi, perferendis deleniti fugit!</p>
+          <p class="read-more">Read More
+        </div>
+        <div class="card"><img src="/wepik-export-20240219115453xsSn.png" width="200" height="200" alt="professional">
+         <hr>
+            <h4>Lorem, ipsum dolor sit amet consectetur.</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nulla dolore voluptate non aut dignissimos illo quo, veritatis officia recusandae laboriosam maiores accusamus dolores beatae consectetur, nisi, perferendis deleniti fugit!</p>
+          <p class="read-more">Read More</div>
+        <div class="card"><img src="/wepik-export-20240219115453xsSn.png" width="200" height="200" alt="professional">
+          <hr>
+            <h4>Lorem, ipsum dolor sit amet consectetur.</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nulla dolore voluptate non aut dignissimos illo quo, veritatis officia recusandae laboriosam maiores accusamus dolores beatae consectetur, nisi, perferendis deleniti fugit!</p>
+          <p class="read-more">Read More</div>
+        </div>
+      </section>
+</body>
+</html>
