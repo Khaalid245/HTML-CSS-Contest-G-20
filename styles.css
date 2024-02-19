@@ -297,7 +297,8 @@ header nav label{
 .img img{
     width: 250px;
     height: 200px;
-    filter: scale(100%);
+    object-fit: cover;
+    transition: .3s;
 }
 .img img:hover{
     transform: scale(1.1);
