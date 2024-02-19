@@ -279,8 +279,8 @@ header nav label{
     text-align: center;
     color: white;
     gap: 20px;
-    padding: 0;
-    margin: 2%;
+    padding-bottom: 10px;
+    margin: 0 2%;
  
   
 
@@ -392,17 +392,11 @@ header nav label{
 
 /* /*about us css */
 #about {
-    height: 100vh;
     background-color: #f8f8f8;
     padding: 80px 0;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    
-}
-
-.about{
-    height: 100vh;
+    flex-direction: column;    
 }
 
 .container-box {
@@ -416,7 +410,6 @@ header nav label{
 .member {
     text-align: center;
     margin: 20px;
-    margin-top: 10%;
 }
 
 .member img {
@@ -447,11 +440,9 @@ header nav label{
 #apply{
 
     height: 100vh;
-    margin: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5%;
 
 }
 
@@ -482,6 +473,7 @@ header nav label{
     color: #fff;
     cursor: pointer;
     width: 50%;
+    margin: 10px auto;
 }
 
 /* button hover */
@@ -530,10 +522,6 @@ header nav label{
     width: 50%;
 }
 
-footer{
-    height:100vh;
-}
-
 }
 
 
@@ -543,7 +531,15 @@ footer{
 /* footer */
 
 footer{
-    margin: 2%;
-    height: 4vh;
-    text-align: center;
+    padding: 20px;
+    background: rgb(2,3,129);
+    height: 10vh;
+    overflow: hidden;
+}
+
+footer span{
+    display: block;
+    margin: 40px 35%;
+    color: white;
+    font-size: 18px;
 }
