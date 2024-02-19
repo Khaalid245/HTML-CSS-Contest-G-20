@@ -1,13 +1,13 @@
 # HTML-CSS-Contest-G-20
 
-This project demonstrates a Clone of Visit Rwanda Website done with Pure HTML and CSS, JS this repository is for educational Purpose and people who are interested in frontend development and its easy to understand the codes used.
+This project demonstrates a Carrier Connect platform, that provides a privilege for Mentors to apply and facilitate in either professional mentorship or individual growth.
 
 ## Author
 **Khalid Abdillahi,**
 **Chol Dau,**
-**Ian Ganza,**
-**Chance KARAMBIZI,**
 **Omar Keita,**
+**Chance KARAMBIZI,**
+**Ian Ganza,**
 
 ## Usage
 ### Steps
