@@ -3,11 +3,11 @@
 This project demonstrates a Clone of Visit Rwanda Website done with Pure HTML and CSS, JS this repository is for educational Purpose and people who are interested in frontend development and its easy to understand the codes used.
 
 ## Author
-**Khalid Abdillahi**
-**Chol Dau**
-**Ian Ganza**
-**Chance KARAMBIZI**
-**Omar Keita**
+**Khalid Abdillahi,**
+**Chol Dau,**
+**Ian Ganza,**
+**Chance KARAMBIZI,**
+**Omar Keita,**
 
 ## Usage
 ### Steps
