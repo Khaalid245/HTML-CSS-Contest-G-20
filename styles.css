@@ -468,6 +468,11 @@ header nav label{
     border: 1px solid #ccc;
 }
 
+#apply form textarea{
+    height: 100px;
+    resize: none;
+}
+
 #apply form button {
     background-color:rgb(2,3,129);
     color: #fff;
